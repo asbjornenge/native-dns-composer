@@ -8,11 +8,12 @@ A tiny little composing wrapper around the awesome [native-dns](https://github.c
 	
 ## Layers
 
-	.at('8.8.8.8')     - sets the DNS server to query
-	.type('SRV')       - sets the DNS record type to query
-	.timeout(1000)     - sets the timeout in ms
+	.at('8.8.8.8')                - sets the DNS server to query
+	.type('SRV')                  - sets the DNS record type to query
+	.timeout(1000)                - sets the timeout in ms
 	.on('timeout', function() {}) - register timeout event listener
 	.on('err', function(err)  {}) - register error event listener
 	.on('end', function(time) {}) - register end event listener
+	.query(function(resp) {})     - will trigger the query
 	
 enjoy.
