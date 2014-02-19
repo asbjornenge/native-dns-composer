@@ -10,5 +10,11 @@
     "dns"
   ],
   "author": "Asbjorn Enge <asbjorn@hanafjedle.net>",
-  "license": "BSD-2-Clause"
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "mocha": "~1.17.1"
+  },
+  "dependencies": {
+    "native-dns": "~0.4.1"
+  }
 }
