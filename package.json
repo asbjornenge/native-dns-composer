@@ -1,0 +1,14 @@
+{
+  "name": "native-dns-composer",
+  "version": "0.0.1",
+  "description": "Composer over the awesome native-dns library",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R nyan"
+  },
+  "keywords": [
+    "dns"
+  ],
+  "author": "Asbjorn Enge <asbjorn@hanafjedle.net>",
+  "license": "BSD-2-Clause"
+}
