@@ -2,8 +2,7 @@
 
 A tiny little composing wrapper around the awesome [native-dns](https://github.com/tjfontaine/node-dns) library for node.
 
-	var dns = require('native-dns-composer')
-	dns('api.domain.com').at('8.8.8.8').query(function(resp) {
+	require('native-dns-composer')('api.domain.com').at('8.8.8.8').query(function(resp) {
 		console.log(resp.answer)
 	})
 	
