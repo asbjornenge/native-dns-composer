@@ -1,20 +1,25 @@
 {
   "name": "native-dns-composer",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Composer over the awesome native-dns library",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -R nyan"
+    "test": "mocha -R nyan --check-leaks"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/asbjornenge/native-dns-composer.git"
   },
   "keywords": [
     "dns"
   ],
   "author": "Asbjorn Enge <asbjorn@hanafjedle.net>",
-  "license": "BSD-2-Clause",
+  "license": "BSD",
+  "homepage": "https://github.com/asbjornenge/native-dns-composer",
   "devDependencies": {
     "mocha": "~1.17.1"
   },
   "dependencies": {
-    "native-dns": "~0.4.1"
+    "native-dns": "~0.7.0"
   }
 }
